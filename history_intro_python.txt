@@ -1,0 +1,20 @@
+    1  git status
+    2  git commit -m "Added main.py"
+    3  git add main.py
+    4  git commit -m "Added main.py"
+    5  git push -u origin main
+    6  python
+    7  python
+    8  git status
+    9  git add main.py
+   10  git commit -m
+   11  git commit -m "Coded solution to string indexing"
+   12  git config --user.email "otgonzaya6052@gmail.com
+/c
+git commit -m "oded solution to string indexing"
+
+"
+   13  git config --user.email "otgonzaya6052@gmail.com"
+   14  git push -u origin main
+   15  history
+   16  history > history_intro_python.txt
