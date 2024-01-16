@@ -1,14 +1,26 @@
-# to delete everthing in a folder use "rm -r foldername"
-# Initialize git repository
-# git init
-#Check git repository status "git status"
-#Create text file from the shell using touch "touch READ.md"
-# Did git catch the README.md file? "git status"
-# Stage the first file "git add README.md"
-#Commit the file to the .git repo "git commit -m "first commit""
-# Please tell me who you are "git config --global user.email "
-# Commit it "git commit -m "added README.md"
-# Check commit history "git log"
-# Check what changed since the last commit "git diff README.md"
-#Re-create the original folder structure using -p option for rmkdir
-# Install csvcut using pip install csvcut
+# Exercise: Indexing and slicing
+
+url = 'https://github.com/codedthinking/tender-home-bias/releases/download/v1.0/ted-sample.csv'
+# Use indexing, slicing to fill in the following output.
+# Copy/ paste not allowed
+
+len('ted-sample.csv')
+file_name = url[-14:]
+print(file_name) # 'ted-sample.csv'
+
+
+
+protcol = url[0:5]
+print(protcol) # 'https'
+
+len(github.com)
+host_name = url[8:18]
+print(host_name) # 'github.com'
+
+
+#Use string composition to construct http://github.com/ted-sample.csv
+
+output = protcol + '://' + host_name + "/" + file_name
+print(output) # 'http://github.com/ted-sample.csv'
+
+
