@@ -1,0 +1,34 @@
+    1  git status
+    2  git add 01_intro_to_python.py 
+    3  python
+    4  touch main.py
+    5  git status
+    6  git add 02_basic_python.py 
+    7  git commit -m "Added tests for the inequality"
+    8  git config --global user.email "otgonzaya6052@gmail.com"
+    9  git config --global user.name "OtgonzayaB"
+   10  rm main.py 06_conditionals.py
+   11  touch main.py
+   12  git add main.py
+   13  mv main.py 06_python_conditionals.py
+   14  git commit -m "Added placeholders for conditionals"
+   15  git push
+   16  git push
+   17  touch main.py
+   18  python
+   19  git pull origin master
+   20  git status
+   21  git push -u origin main
+   22  git pull origin master
+   23  git push origin master
+   24  $ git pull origin master
+   25  git push -f origin main
+   26  git add 06_python_conditionals.py 
+   27  git commit -m "Added placeholder for conditionals"
+   28  git push
+   29  mv main.py 07_python_loops.py
+   30  git add 07_python_loops.py 
+   31  git commit -m "Added script introduction for and while loops"
+   32  git push
+   33  git status
+   34  history > 02_history_loops.txt
